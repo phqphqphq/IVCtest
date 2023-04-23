@@ -1,15 +1,19 @@
-md5:417aa0a0b983a852be4d19bb99299c15
-镜像名称:nginx:latest
-环境变量:
+md5:91c5415b733f90d5594a49ec9e5a8667
+Image Name:nginx:latest
+
+Image Environment Variable:
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 NGINX_VERSION=1.23.4
 NJS_VERSION=0.7.11
 PKG_RELEASE=1~bullseye
-开放端口:
+
+Image Open Ports:
 80
-镜像标签:
+
+Image Label:
 maintainer=NGINX Docker Maintainers <docker-maint@nginx.com>
-镜像发行版信息:
+
+Image Distribution Information:
 PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
 NAME="Debian GNU/Linux"
 VERSION_ID="11"
@@ -19,11 +23,13 @@ ID=debian
 HOME_URL="https://www.debian.org/"
 SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
-镜像内软件及版本:
+
+Software and Version:
+name:curl,version:
+name:nginxPackages,version:
 name:gnupg1,version:
 name:ca-certificates,version:
 name:gettext-base,version:
-name:curl,version:
-name:nginxPackages,version:
+name:mysql-server,version:
 remote tag:
-remotetag=192.168.0.144:80/ivctest/nginx:202304212006
+remotetag=192.168.0.144:80/ivctest/nginx:202208131648
