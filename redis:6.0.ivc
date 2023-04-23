@@ -1,0 +1,39 @@
+md5:cb83654dc1ba7e9632f89c589959ec10
+Image Name:redis:6.0
+
+Image Environment Variable:
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+GOSU_VERSION=1.16
+REDIS_VERSION=6.0.18
+REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-6.0.18.tar.gz
+REDIS_DOWNLOAD_SHA=d7b4f2a97fcab96727284092b0a4aa854af47d570803fa0e7a0345359743836e
+
+Image Open Ports:
+6379
+
+Image Label:
+
+Image Distribution Information:
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+Software and Version:
+name:gcc,version:
+name:libc6-dev,version:
+name:libssl-dev,version:
+name:make,version:
+name:ca-certificates,version:
+name:dirmngr,version:
+name:gnupg,version:
+name:wget,version:
+name:dpkg-dev,version:
+name:redis,version:
+remote tag:
+remotetag=192.168.0.144:80/ivctest/redis:202208131426
